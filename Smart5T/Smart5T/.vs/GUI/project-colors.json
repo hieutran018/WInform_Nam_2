@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3d167db7-0ce6-4cf5-af10-bc0e2f3a4abd": {
+      "ProjectGuid": "3d167db7-0ce6-4cf5-af10-bc0e2f3a4abd",
+      "DisplayName": "DTO",
+      "ColorIndex": 0
+    },
+    "84c7a391-27b9-4843-9f04-3b6843bbd8f9": {
+      "ProjectGuid": "84c7a391-27b9-4843-9f04-3b6843bbd8f9",
+      "DisplayName": "DAO",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

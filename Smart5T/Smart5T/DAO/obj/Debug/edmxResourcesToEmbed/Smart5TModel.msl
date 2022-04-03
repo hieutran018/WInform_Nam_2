@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CHTL_Smart5TModelStoreContainer" CdmEntityContainer="CHTL_Smart5TEntities">
+    <EntitySetMapping Name="tblChucVus">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblChucVu">
+        <MappingFragment StoreEntitySet="tblChucVu">
+          <ScalarProperty Name="MaCv" ColumnName="MaCv" />
+          <ScalarProperty Name="ChucVu" ColumnName="ChucVu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCT_HoaDon">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblCT_HoaDon">
+        <MappingFragment StoreEntitySet="tblCT_HoaDon">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
+          <ScalarProperty Name="MaSanPham" ColumnName="MaSanPham" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHoaDons">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblHoaDon">
+        <MappingFragment StoreEntitySet="tblHoaDon">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="NhanVienLapHD" ColumnName="NhanVienLapHD" />
+          <ScalarProperty Name="NgayLapHoaDon" ColumnName="NgayLapHoaDon" />
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKhachHangs">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblKhachHang">
+        <MappingFragment StoreEntitySet="tblKhachHang">
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="HoKH" ColumnName="HoKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Dchi" ColumnName="Dchi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiemTichLuy" ColumnName="DiemTichLuy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNhaCungCaps">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblNhaCungCap">
+        <MappingFragment StoreEntitySet="tblNhaCungCap">
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="MaNcc" ColumnName="MaNcc" />
+          <ScalarProperty Name="TenNcc" ColumnName="TenNcc" />
+          <ScalarProperty Name="DChi" ColumnName="DChi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNhanViens">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblNhanVien">
+        <MappingFragment StoreEntitySet="tblNhanVien">
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HoNV" ColumnName="HoNV" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="NgSinh" ColumnName="NgSinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="Dchi" ColumnName="Dchi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Luong" ColumnName="Luong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSanPhams">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblSanPham">
+        <MappingFragment StoreEntitySet="tblSanPham">
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="MaSp" ColumnName="MaSp" />
+          <ScalarProperty Name="TenSp" ColumnName="TenSp" />
+          <ScalarProperty Name="AnhMinhHoa" ColumnName="AnhMinhHoa" />
+          <ScalarProperty Name="DonViTinh" ColumnName="DonViTinh" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="MaNhaCungCap" ColumnName="MaNhaCungCap" />
+          <ScalarProperty Name="NgaySanXuat" ColumnName="NgaySanXuat" />
+          <ScalarProperty Name="HanSuDung" ColumnName="HanSuDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTaiKhoans">
+      <EntityTypeMapping TypeName="CHTL_Smart5TModel.tblTaiKhoan">
+        <MappingFragment StoreEntitySet="tblTaiKhoan">
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="Ma_NVien" ColumnName="Ma_NVien" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="MaChucVu" ColumnName="MaChucVu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
